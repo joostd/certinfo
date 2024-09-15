@@ -57,6 +57,7 @@ var (
 	oidSigstoreGithubWorkflowRepository = asn1.ObjectIdentifier{1, 3, 6, 1, 4, 1, 57264, 1, 5}
 	oidSigstoreGithubWorkflowRef        = asn1.ObjectIdentifier{1, 3, 6, 1, 4, 1, 57264, 1, 6}
 	oidSigstoreOtherName                = asn1.ObjectIdentifier{1, 3, 6, 1, 4, 1, 57264, 1, 7}
+	oidSigstoreOIDCIssuerV2             = asn1.ObjectIdentifier{1, 3, 6, 1, 4, 1, 57264, 1, 8}
 )
 
 // TCG EK Credential Profile For TPM Family 2.0; Level 0
